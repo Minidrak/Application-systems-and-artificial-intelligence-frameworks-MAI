@@ -1,0 +1,74 @@
+# === Jupyter / IPython ===
+.ipynb_checkpoints/       # Автоматические чекпоинты Jupyter
+*.ipynb_checkpoint/       # На случай нестандартных путей
+notebooks/.ipynb_checkpoints/
+
+# Временные и автосохранённые файлы Jupyter
+*~
+*.swp
+*.swo
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальные окружения
+venv/
+ENV/
+env/
+.venv/
+.virtualenv/
+
+# Установки pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Локальные конфиги
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+htmlcov/
+.tox/
+.mypy_cache/
+.pyre/
+
+# === IDE / Редакторы ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# === Данные и бинарники (осторожно!) ===
+# Раскомментируй, если НЕ хочешь коммитить данные:
+# data/
+# datasets/
+# *.csv
+# *.parquet
+# *.feather
+# *.h5
+# *.joblib
+# *.pkl
+# *.pickle
+
+# Вывод моделей/предсказаний
+models/
+output/
+predictions/
+results/
+
+# === Логи и отладка ===
+*.log
+logs/
+debug.log
+
+# === Секреты ===
+.env
+.env.local
+secrets/
+*.key
+config.yaml
+config.json

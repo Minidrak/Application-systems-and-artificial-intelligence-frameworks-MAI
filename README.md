@@ -1,4 +1,4 @@
-# Application-systems-and-artificial-intelligence-frameworks-MAI
+# Лабораторные работы по курсу Прикладные системы и фреймворки ИИ
 
 ### Датасет для классификации (поддельная ли банкнота):
 https://www.kaggle.com/datasets/gauravduttakiit/banknote/data
